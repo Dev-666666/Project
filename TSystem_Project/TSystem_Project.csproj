@@ -152,5 +152,11 @@
   <ItemGroup>
     <None Include="Resources\pass7.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\booknew.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book-ga3e52eccd_6401.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

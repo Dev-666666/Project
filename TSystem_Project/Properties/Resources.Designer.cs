@@ -83,9 +83,29 @@ namespace TSystem_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap book_ga3e52eccd_6401 {
+            get {
+                object obj = ResourceManager.GetObject("book-ga3e52eccd_6401", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap book1 {
             get {
                 object obj = ResourceManager.GetObject("book1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap booknew {
+            get {
+                object obj = ResourceManager.GetObject("booknew", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

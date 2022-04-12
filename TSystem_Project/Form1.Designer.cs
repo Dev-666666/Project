@@ -141,8 +141,8 @@ namespace TSystem_Project
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::TSystem_Project.Properties.Resources.book1;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::TSystem_Project.Properties.Resources.book_ga3e52eccd_6401;
+            this.ClientSize = new System.Drawing.Size(768, 508);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnnewuser);
