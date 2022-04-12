@@ -11,9 +11,9 @@ using System.Data.SqlClient;
 
 namespace TSystem_Project
 {
-    public partial class Form1 : Form
+    public partial class LoginForm : Form
     {
-        public Form1()
+        public LoginForm()
         {
             InitializeComponent();
         }
@@ -53,6 +53,11 @@ namespace TSystem_Project
         {
             Customer settingsForm = new Customer();
             settingsForm.Show();
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
     }
