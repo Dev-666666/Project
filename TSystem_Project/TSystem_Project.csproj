@@ -107,5 +107,50 @@
   <ItemGroup>
     <None Include="Resources\book-ga3e52eccd_640.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass7.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

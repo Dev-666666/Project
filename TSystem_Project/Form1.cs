@@ -51,6 +51,8 @@ namespace TSystem_Project
 
         private void btnnewuser_Click(object sender, EventArgs e)
         {
+            Customer settingsForm = new Customer();
+            settingsForm.Show();
 
         }
     }

@@ -36,6 +36,10 @@ namespace TSystem_Project
             this.btnlogin = new System.Windows.Forms.Button();
             this.btnadminlogin = new System.Windows.Forms.Button();
             this.btnnewuser = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // lblusername
@@ -113,12 +117,34 @@ namespace TSystem_Project
             this.btnnewuser.UseVisualStyleBackColor = false;
             this.btnnewuser.Click += new System.EventHandler(this.btnnewuser_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox1.Image = global::TSystem_Project.Properties.Resources.user15;
+            this.pictureBox1.Location = new System.Drawing.Point(227, 104);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(30, 22);
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox2.Image = global::TSystem_Project.Properties.Resources.pass7;
+            this.pictureBox2.Location = new System.Drawing.Point(227, 167);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(30, 22);
+            this.pictureBox2.TabIndex = 8;
+            this.pictureBox2.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::TSystem_Project.Properties.Resources.book1;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnnewuser);
             this.Controls.Add(this.btnadminlogin);
             this.Controls.Add(this.btnlogin);
@@ -127,7 +153,9 @@ namespace TSystem_Project
             this.Controls.Add(this.lblpassword);
             this.Controls.Add(this.lblusername);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Login Form";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -142,6 +170,8 @@ namespace TSystem_Project
         private System.Windows.Forms.Button btnlogin;
         private System.Windows.Forms.Button btnadminlogin;
         private System.Windows.Forms.Button btnnewuser;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
