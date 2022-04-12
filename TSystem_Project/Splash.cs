@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TSystem_Project
 {
-    public partial class Lodingpage : Form
+    public partial class Splash : Form
     {
-        public Lodingpage()
+        public Splash()
         {
             InitializeComponent();
         }

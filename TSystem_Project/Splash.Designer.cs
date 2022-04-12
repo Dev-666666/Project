@@ -1,7 +1,7 @@
 ﻿
 namespace TSystem_Project
 {
-    partial class Lodingpage
+    partial class Splash
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace TSystem_Project
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Lodingpage));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Splash));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
