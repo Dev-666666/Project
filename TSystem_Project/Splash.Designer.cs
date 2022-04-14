@@ -29,10 +29,13 @@ namespace TSystem_Project
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Splash));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.Myprogress = new System.Windows.Forms.ProgressBar();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.PercentageLbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -53,32 +56,47 @@ namespace TSystem_Project
             this.label2.ForeColor = System.Drawing.Color.Green;
             this.label2.Location = new System.Drawing.Point(12, 333);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(126, 23);
+            this.label2.Size = new System.Drawing.Size(108, 23);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Loading..... %";
+            this.label2.Text = "Loading..... ";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // progressBar1
+            // Myprogress
             // 
-            this.progressBar1.Location = new System.Drawing.Point(3, 359);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(774, 23);
-            this.progressBar1.TabIndex = 2;
+            this.Myprogress.Location = new System.Drawing.Point(3, 359);
+            this.Myprogress.Name = "Myprogress";
+            this.Myprogress.Size = new System.Drawing.Size(774, 23);
+            this.Myprogress.TabIndex = 2;
             // 
-            // Lodingpage
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // PercentageLbl
+            // 
+            this.PercentageLbl.AutoSize = true;
+            this.PercentageLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PercentageLbl.ForeColor = System.Drawing.Color.Green;
+            this.PercentageLbl.Location = new System.Drawing.Point(126, 333);
+            this.PercentageLbl.Name = "PercentageLbl";
+            this.PercentageLbl.Size = new System.Drawing.Size(25, 24);
+            this.PercentageLbl.TabIndex = 3;
+            this.PercentageLbl.Text = "%";
+            // 
+            // Splash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(795, 386);
-            this.Controls.Add(this.progressBar1);
+            this.Controls.Add(this.PercentageLbl);
+            this.Controls.Add(this.Myprogress);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Lodingpage";
+            this.Name = "Splash";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lodingpage";
-            this.Load += new System.EventHandler(this.Lodingpage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -88,6 +106,8 @@ namespace TSystem_Project
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.ProgressBar Myprogress;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label PercentageLbl;
     }
 }

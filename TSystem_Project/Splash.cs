@@ -17,11 +17,28 @@ namespace TSystem_Project
             InitializeComponent();
         }
 
-        private void Lodingpage_Load(object sender, EventArgs e)
+        int startpos = 0;
+
+        private void timer1_Tick(object sender, EventArgs e)
         {
+            startpos += 1;
+            Myprogress.Value = startpos;
+            PercentageLbl.Text = startpos + "%";
+            if(Myprogress.Value==100)
+            {
+                Myprogress.Value = 0;
+                timer1.Stop();
+                LoginForm log = new LoginForm();
+                log.Show();
+                this.Hide();
+            }
 
         }
 
+        private void Splash_Loac(object sender,EventArgs e)
+        {
+            timer1.Start();
+        }
         private void label2_Click(object sender, EventArgs e)
         {
 
