@@ -42,7 +42,6 @@ namespace TSystem_Project
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -185,17 +184,6 @@ namespace TSystem_Project
             this.label2.Text = "Book Shop";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(52, 442);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(97, 22);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "Book Title";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(0, 159);
@@ -264,7 +252,6 @@ namespace TSystem_Project
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.textBox2);
             this.panel2.Controls.Add(this.textBox1);
-            this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.textBox4);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.label2);
@@ -489,7 +476,6 @@ namespace TSystem_Project
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label7;
